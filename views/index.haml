@@ -1,7 +1,84 @@
 !!!
 %html
   %head
-    %title James Martinez
+    %title James Martinez is a Product Engineer
+    %meta{ content: 'width=device-width, initial-scale=1', name: 'viewport' }
     %link{ rel: 'stylesheet', type: 'text/css', href: '/stylesheets/application.css' }
   %body
-    %h1 James Martinez
+    %header#hero
+      .content
+        %h1
+          James Martinez —
+          %span#tagline Product Inception & Engineering
+        %p
+          I create products for mobile and the web.
+        %p
+          = succeed '.' do
+            %a{ href: 'mailto:jamescmartinez@gmail.com' } Let's work together
+    %section#work
+      .content
+        %h2 Work
+        %p Select projects include:
+        %ul
+          %li
+            %a{ href: 'http://invis.io/BJ2TLVLE9' } Revive
+            %span.project-detail - Product Design Sprint
+          %li
+            %a{ href: 'http://snowball.is' } Snowball
+            %span.project-detail - Mobile & Web Development
+          %li
+            %a{ href: 'http://kurbo.com' } Kurbo
+            %span.project-detail - Mobile Development
+          %li
+            %a{ href: 'http://angel.co/bestly' } Bestly
+            %span.project-detail - Product Design, Mobile & Web Development
+          %li
+            %a{ href: 'http://angel.co/snow-cherry' } The DailySpank
+            %span.project-detail - Product Design, Mobile Development
+          %li
+            %a{ href: 'http://angel.co/snow-cherry' } Spark
+            %span.project-detail - Product Design, Mobile Development
+          %li
+            %a{ href: 'http://tout.com' } Tout
+            %span.project-detail - Led Mobile Development Team
+          %li
+            %a{ href: 'http://angel.co/zazum' } SeeLoveBuy
+            %span.project-detail - Mobile & Web Development
+    %hr
+    %section#hire
+      .content
+        %h2 Consulting (Hire me!)
+        %p
+          I am currently accepting new projects.
+          = succeed '.' do
+            %a{ href: 'mailto:jamescmartinez@gmail.com' } Let's talk
+    %hr
+    %section#mentorship
+      .content
+        %h2 Mentorship
+        %p
+          I mentor a very select few on mobile/web development.
+          Feel free to
+          %a{ href: 'mailto:jamescmartinez@gmail.com' } reach out
+          to me.
+    %hr
+    %section#elsewhere
+      .content
+        %h2 Elsewhere
+        %p
+          Find me around the internet at:
+          %ul
+            %li
+              %a{ href: 'http://twitter.com/_jamesmartinez' } Twitter
+            %li
+              %a{ href: 'http://blog.jamescmartinez.com' } Blog
+            %li
+              %a{ href: 'http://github.com/jamescmartinez' } Github
+    %hr
+    %footer
+      .content
+        %p
+          ©
+          = Time.now.year
+          James Martinez —
+          %a{ href: 'http://github.com/jamescmartinez/jamescmartinez.com' } Source

@@ -1,0 +1,70 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300,400);
+
+$primary-color: #73737c;
+
+body {
+  color: $primary-color;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: lighter;
+  line-height: 1.6em;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+  border-bottom: 1px solid;
+  transition: border-color 0.25s ease-out;
+}
+
+a:hover {
+  border-color: transparent;
+}
+
+h1, h2 {
+  color: #06061d;
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+ul {
+  margin-top: .7em;
+}
+
+hr {
+  color: $primary-color;
+  margin: 0;
+  opacity: 0.5;
+  width: 20%;
+}
+
+.content {
+  max-width: 50em;
+  margin: 0 auto;
+  padding: 4em 2em;
+}
+
+header#hero {
+  background-color: #f2f2eb;
+  padding: 4em inherit;
+
+  h1 {
+    font-size: 2.3em;
+    line-height: 1.3em;
+    margin-bottom: 1.2em;
+
+    #tagline {
+      display: block;
+      opacity: 0.5;
+    }
+  }
+}
+
+.project-detail {
+  opacity: 0.6;
+}
+
+footer {
+  p {
+    font-size: 0.7em;
+  }
+}

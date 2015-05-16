@@ -15,3 +15,9 @@ end
 get '/consulting' do
   redirect to('#hire')
 end
+
+# Assets
+
+get '/stylesheets/application.css' do
+  scss :'stylesheets/sass/application', style: :compressed
+end

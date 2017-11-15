@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 
 middleman build
+cp CNAME build
 git add -- build
 git commit -m "Automated commit for deploy" -- build
 git subtree push --prefix build origin gh-pages

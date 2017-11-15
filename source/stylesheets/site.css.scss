@@ -1,0 +1,49 @@
+body {
+  font-family: 'Work Sans', sans-serif;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+}
+
+h1 {
+  font-family: Eczar, serif;
+  font-size: 100px;
+  font-weight: bold;
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 20px;
+
+  @media (max-width: 768px) {
+    font-size: 70px;
+  }
+
+  @media (max-width: 576px) {
+    font-size: 40px;
+  }
+}
+
+h2 {
+  font-weight: normal;
+}
+
+a {
+  background: linear-gradient(to bottom, transparent 0%, transparent 60%,
+    #fbf36d 60%, #fbf36d 100%);
+  color: #000000;
+  text-decoration: none;
+
+  &.twitter {
+    background: linear-gradient(to bottom, transparent 0%, transparent 60%,
+      #a5ddff 60%, #a5ddff 100%);
+  }
+}
+
+.container {
+  margin: 0 20px;
+}
+
+.cta {
+  font-weight: 600;
+}
